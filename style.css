@@ -1,9 +1,9 @@
 *{
-    margin:5px;
-    padding:5px;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box; 
 }
-.padre{
+.container{
 display: flex;
 flex-flow: column nowrap;
 margin: 0%;
@@ -15,12 +15,10 @@ padding: 0%;
     flex-flow: column nowrap;
 }
 .filadelphia{
-    background-image: url(img/anuncio_top.jpg);
     width: 100%;
     height: 100px;
     padding:0%;
     margin-bottom: 0%;
-    background-size: cover;
 }
     .menu{
     margin-top: 0%;
@@ -65,38 +63,19 @@ padding: 0%;
 
         }
         .excelsior-nav{
-            background-image: url(img/barra_excelsior.png);
-            background-repeat:no-repeat;
             display: flex;
+            width: 100%;
             height:50px;
-            background-size: cover;
             margin-top: 0%;
             margin-bottom: 0%;
             padding: 0%;
         }
     
-    /*.excelsior{
-            background: black;
-            display: flex;
-            height: 30px;
-            margin-top: 0%;
-            margin-bottom: 0%;
-            padding: 0%;
-            justify-content: right;
-        }
     
-        .return{
-            background-image:url(img/barra_excelsior.png) ;
-            background-repeat:no-repeat;
-            background-size: cover;
-            flex:1 1 end;
-        }*/
-        .publicidad-caliente{
-            background-image: url(img/anuncio_calientes.jpg);
-            background-repeat:no-repeat;
+        .publicidad-img{
             display: flex;
-            height: 500px;
-            background-size: cover;
+            width: 100%;
+            height: 50%;
         }
 
 /*.caliente-apuestas{
