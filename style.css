@@ -85,7 +85,7 @@ padding: 0%;
 }
 .xavi-big{
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin-bottom: 0%;
 }
 h3{
@@ -142,6 +142,31 @@ p{
     height: 100px;
     padding:0%;
     margin-bottom: 0%;
+}
+.no-puedes{
+    font-size: small;
+    color:red;
+    text-align: left;
+}
+.under{
+    margin-bottom: 3%;
+}
+.xavi-bigs{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.linea{
+    border-top: 1px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.under-line{
+    margin-top: 3%;
 }
 .footer{
     background: pink;
