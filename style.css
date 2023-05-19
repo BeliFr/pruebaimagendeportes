@@ -90,14 +90,19 @@ padding: 0%;
 }
 h3{
     font-size: small;
-    color:orange
+    color:orange;
 }
 h2{
     font-size: larger;
-    text-align: left;
+    text-align:justify;
+    justify-content:stretch;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 p{
-    text-align: left;
+    text-align: justify;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .section-two{
     display:grid;
@@ -144,9 +149,10 @@ p{
     margin-bottom: 0%;
 }
 .no-puedes{
-    font-size: small;
+    font-size: larger;
     color:red;
     text-align: left;
+    margin-bottom: 5%;
 }
 .under{
     margin-bottom: 3%;
@@ -167,7 +173,94 @@ p{
 }
 .under-line{
     margin-top: 3%;
+    margin-bottom: 3%;
 }
+.Ultima-Hora{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto ;
+    border-bottom:grey 3px solid; 
+}
+.div-ultima-hora{
+    justify-content: center;
+    background-color: white;
+    color:black;
+    border-bottom: grey 3px solid;
+}
+h4{
+    font-size: small;
+    color:orange;
+    margin-bottom: 3%;
+}
+
+.asi{
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column;
+    
+}
+.tweet{
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column;
+    
+}
+.publ{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    
+}
+.linea-titulo-hoy{
+    margin-top: 8%;
+}
+.hoy{
+    font-size: larger;
+    color:red;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.hoy-en{
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto ;
+    justify-content:stretch;
+}
+.div-hoy-en{
+    justify-content:stretch;
+    background-color: white;
+    color:black;
+}
+.video{
+    background:red;
+    background-size:cover;
+    height: 40px;
+    display: block;
+}
+.videogalerias{
+    margin-top: 1%;
+    color:white;
+    font-size: larger;
+    text-align: left;
+}
+.section-video{
+    background: white;
+    display:flex;
+    flex-flow: column nowrap;
+}
+.video-galeria{
+    width: 100%;
+    height: 300px;
+
+}
+
+
 .footer{
     background: pink;
 }
