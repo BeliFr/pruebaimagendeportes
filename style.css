@@ -10,7 +10,6 @@ margin: 0%;
 padding: 0%;
 }
 .header{
-    background:yellow;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -78,39 +77,96 @@ padding: 0%;
             height: 50%;
         }
 
-/*.caliente-apuestas{
-    display: flex;
+
+.section-one{
+    background: white;
+    display:flex;
     flex-flow: column nowrap;
 }
-.caliente{
-    background-image: url(img/anuncio_caliente.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    display: flex;
-    justify-content: center;
-}*/
-.section-one{
-    background: green;
-    display:flex;
+.xavi-big{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0%;
 }
-    .articles{
-        background: #4e4;
-        flex:  1 auto;
-    }
-    .aside{
-        background-color: beige;
-        flex:1 1 auto;
-        display: flex;
-        flex-flow:row wrap;
-    }
-    .advertising{
-        background: pink;
-    }
-.opinion{
-    background-color: aqua;
+h3{
+    font-size: small;
+    color:orange
 }
+h2{
+    font-size: larger;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+.section-two{
+    display:grid;
+    grid-template-columns: minmax(300px, 1fr) 1fr;/*mantienen proporcio la primera sera mas finita que la segunda*/
+    grid-auto-rows: 500px ;
+    gap: 20px;
+}
+.aside{
+    margin-top: 5%;
+    background-color: white;
+    display:grid;
+    grid-template-columns:repeat(1, 1fr) ;
+    
+}
+    .xavi-small{
+        width:100%;
+        height: 100%;
+        object-fit:contain;
+    }
+
 .article-opinion{
-    background: rgb(204, 56, 81);
+    margin-top: 0%;
+    width: 100%;
+    background: white;
+    display: grid;
+    height: 100px;
+    
+    /*background: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /*grid-template-columns: minmax(300px, 1fr) 1fr;
+    grid-auto-rows: 500px ;
+    gap: 20px;*/
+}
+.h3-opinion{ 
+    font-size: larger;
+    color:red;
+    text-align: left;
+    width: 300%;
+    height: 80%;
+
+}
+.alejandro{
+    flex: 1 1 auto;
+    height: 80px;
+    display: block;
+    margin-right: 80%;
+    margin-top: 5%;
+}
+.article-parrafo{
+    font-size: larger;
+    color:black;
+    text-align: center;
+    align-items: ;
+    width: 300%;
+    height: 80%;
+    margin-top: 0%;
+    display: grid;
+    height: 100px;
+}
+.button-opinion{
+    background-color: red;
+    width: 40%;
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+    align-content: center;
 }
 .publicidad{
     background-image: url(img/publicidadGeneral.jpg);
@@ -122,10 +178,10 @@ padding: 0%;
     background: pink;
 }
 
-@media all and (max-width:800px){
+/*@media all and (max-width:800px){
     .section-one{
         flex-direction:column ;
     }
 
 
-}
+}*/
